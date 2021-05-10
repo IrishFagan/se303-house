@@ -1,7 +1,5 @@
 class House
 
-	def recite(upper=)
-
 	def line(number)
 		case number
 		when 1
