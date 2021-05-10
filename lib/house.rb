@@ -1,5 +1,9 @@
 class House
 
+	def recite
+
+	end
+
 	def line(number)
 		case number
 		when 1
