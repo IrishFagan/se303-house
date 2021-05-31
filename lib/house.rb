@@ -49,3 +49,18 @@ class RandomHouse < House
 		return phrase
 	end
 end
+
+class RandomPirateHouse < House
+	def initialize
+		@random_house = RandomHouse.new
+		@pirate_house = PirateHouse.new
+	end
+
+	def beginning
+		@pirate_house.beginning
+	end
+
+	def phrases
+		@random_house.phrases
+	end
+end
