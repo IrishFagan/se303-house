@@ -188,3 +188,7 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
 end
+
+#RandomHouse.new.recite(verbose = true)
+
+#RandomPirateHouse.new.recite(verbose = true)
